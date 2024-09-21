@@ -1,5 +1,9 @@
-import { Header } from '../../Organisms/Header/business/HeaderLogic';
+import { LauncherUi } from '../../Templates/LauncherUi/LauncherUi';
 
 export const DofusPageUi = () => {
-    return <Header />;
+    return (
+        <div>
+            <LauncherUi />
+        </div>
+    );
 };

@@ -1,9 +1,9 @@
-import { Header } from '../../Organisms/Header/business/HeaderLogic';
+import { LauncherUi } from '../../Templates/LauncherUi/LauncherUi';
 
 export const ChatPageUi = () => {
     return (
-        <div className='page'>
-            <Header />
+        <div>
+            <LauncherUi />
         </div>
     );
 };

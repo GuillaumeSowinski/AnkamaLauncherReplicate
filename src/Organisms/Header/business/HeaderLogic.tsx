@@ -5,49 +5,6 @@ import { useNavigate } from 'react-router-dom';
 const HeaderLogic = () => {
     const navigate = useNavigate();
 
-    const gamesButton: PropsType[] = [
-        {
-            index: 'dofus',
-            type: 'button',
-            onClick: () => {
-                navigate('/dofus');
-            },
-            image: 'public/Dofus.jpg',
-        },
-        {
-            index: 'dofusbeta',
-            type: 'button',
-            onClick: () => {
-                navigate('/dofusbeta');
-            },
-            image: 'public/dofusbeta.jpg',
-        },
-        {
-            index: 'retro',
-            type: 'button',
-            onClick: () => {
-                navigate('/dofusretro');
-            },
-            image: 'public/dofusretro.jpg',
-        },
-        {
-            index: 'wakfu',
-            type: 'button',
-            onClick: () => {
-                navigate('/wakfu');
-            },
-            image: 'public/wakfu.jpg',
-        },
-        {
-            index: 'addnewgame',
-            type: 'button',
-            onClick: () => {
-                navigate('/addnewgame');
-            },
-            image: 'https://www.trialp.com/wp-content/uploads/2019/03/Logo-plus.png',
-        },
-    ];
-
     const featuresButton: PropsType[] = [
         {
             index: 'krozmoz',
@@ -150,7 +107,6 @@ const HeaderLogic = () => {
             featuresButton={featuresButton}
             featuresButton2={featuresButton2}
             featuresButton3={featuresButton3}
-            gamesButton={gamesButton}
         />
     );
 };

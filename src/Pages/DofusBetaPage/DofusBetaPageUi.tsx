@@ -1,15 +1,9 @@
-import { ReactNode } from 'react';
-import { Header } from '../../Organisms/Header/business/HeaderLogic';
+import { LauncherUi } from '../../Templates/LauncherUi/LauncherUi';
 
-interface PropsType {
-    children: ReactNode;
-}
-
-export const DofusPageUi = ({ children }: PropsType) => {
+export const DofusPageUi = () => {
     return (
         <div>
-            <Header />
-            <div>{children}</div>
+            <LauncherUi />
         </div>
     );
 };
